@@ -138,3 +138,10 @@ DATABASE_URL="MongoDB ile oluşturulan veritabanı URL'si"
 AUTH_GITHUB_ID=
 AUTH_GITHUB_SECRET=
 ```
+
+### Prisma Şema Güncelleme
+Prismada şemayı güncellemek için aşağıdaki komutları çalıştırınız.
+```bash
+npx prisma generate
+npx prisma db push
+```

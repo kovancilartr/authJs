@@ -130,3 +130,11 @@ model Authenticator {
   @@unique([userId, credentialID])
 }
 ```
+
+## ENV Şablonu
+```bash
+AUTH_SECRET="npx auth secret ile oluşturulan bir şifre"
+DATABASE_URL="MongoDB ile oluşturulan veritabanı URL'si"
+AUTH_GITHUB_ID=
+AUTH_GITHUB_SECRET=
+```

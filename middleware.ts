@@ -3,6 +3,7 @@
 
 import { auth } from "@/auth";
 import { NextRequest, NextResponse } from "next/server";
+import { db } from "./db";
 // NextRequest ve NextResponse sınıflarını içe aktarır. NextRequest, gelen isteği temsil ederken, NextResponse, yanıtı temsil eder.
 
 const protectedRoutes = ["/middleware", "/server"];

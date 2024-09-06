@@ -17,6 +17,9 @@ const Navbar = async () => {
           <Link className="font-bold" href="/middleware">
             Middleware
           </Link>
+          <Link className="font-bold" href="/users">
+            Users
+          </Link>
           <Link className="font-bold" href="/server">
             Server
           </Link>
@@ -26,7 +29,7 @@ const Navbar = async () => {
           {!session?.user ? (
             <Link className="font-bold" href="/sign-in">
               <div className="bg-blue-500 text-white text-sm px-4 py-2 rounded-xl">
-                Login
+                Giriş Yap
               </div>
             </Link>
           ) : (
